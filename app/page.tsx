@@ -1,3 +1,6 @@
+import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
+
 const Page = () => {
   return (
     <div className="flex min-h-screen flex-col bg-white">
@@ -12,8 +15,12 @@ const Page = () => {
               Capture, organize, and manage your job search in one place.{" "}
             </p>
             <div className="flex flex-col items-center gap-4">
-              <button>Start for free</button>
-              <p>Free forever, no credit card required.</p>
+              <Button size="lg" className="h-12 px-8 text-lg font-medium">
+                Start for free <ArrowRight className="ml-2" />
+              </Button>
+              <p className="text-sm text-muted-foreground">
+                Free forever, no credit card required.
+              </p>
             </div>
           </div>
         </section>
