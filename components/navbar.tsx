@@ -20,7 +20,9 @@ const Navbar = () => {
             </Button>
           </Link>
           <Link href="/sign-up">
-            <Button className="bg-primary hover:bg-primary/90">Sign up</Button>
+            <Button className="bg-primary hover:bg-primary/90">
+              Start for free
+            </Button>
           </Link>
         </div>
       </div>
